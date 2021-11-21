@@ -1,0 +1,76 @@
+   {% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referências</title>
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary container-fluid">
+        <div class="container">
+            <a class="nav-brand" href="https://portal.unigranrio.edu.br/">
+                <img src="{% static 'img/logounigranrio.png' %}" width="50" alt="" height="50">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <il class="nav-item d-inline p-2 bg-primary">
+                        <a class="nav-link" href="{% url 'inicio' %}">
+                            <img src="{% static 'img/home.png' %}" width="20" alt="" height="20">
+                            Início
+                        </a>
+                    </il>
+                    <il class="nav-item dropdown d-inline p-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="{% static 'img/s1.png' %}" width="20" alt="" height="20">
+                            Tecido Sanguíneo
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{% url 'sangue' %}">Sangue</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="{% url 'eritocito' %}">Eritócito</a>
+                            <a class="dropdown-item" href="{% url 'monocito' %}">Monócito</a>
+                            <a class="dropdown-item" href="{% url 'basofilo' %}">Basófilo</a>
+                            <a class="dropdown-item" href="{% url 'neutrofilo' %}">Neutrófilo</a>
+                            <a class="dropdown-item" href="{% url 'eosinofilo' %}">Eosinófilo</a>
+                            <a class="dropdown-item" href="{% url 'linfocito' %}">Linfócito</a>
+                            <a class="dropdown-item" href="{% url 'plaqueta' %}">Plaqueta</a>
+                        </div>
+                    </il>
+                    <il class="nav-item d-inline p-2 bg-primary">
+                        <a class="nav-link" href="{% url 'referencias' %}">
+                            <img src="{% static 'img/l1.png' %}" width="20" alt="" height="20">
+                            Referências
+                        </a>
+                    </il>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="invisible">
+            Segundo
+        </div>
+
+        <div class="invisible">
+            Segundo
+        </div>
+
+        <div class="invisible">
+            Segundo
+        </div>
+
+        <div class="mx-auto p-5" style="width: 1000px; text-align:left">
+            <img src="{% static 'img/r1.png' %}" width="604" alt="" height="280">
+        </div>
+    </div>
+
+    <script src="{% static 'js/jquery-3.6.0.slim.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.js' %}"></script>
+    <script src="{% static 'js/popper.js' %}"></script>
+</body>
+</html>

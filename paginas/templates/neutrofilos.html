@@ -1,0 +1,224 @@
+   {% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neutrófilos</title>
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary container-fluid">
+        <div class="container">
+            <a class="nav-brand" href="https://portal.unigranrio.edu.br/">
+                <img src="{% static 'img/logounigranrio.png' %}" width="50" alt="" height="50">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <il class="nav-item d-inline p-2 bg-primary">
+                        <a class="nav-link" href="{% url 'inicio' %}">
+                            <img src="{% static 'img/home.png' %}" width="20" alt="" height="20">
+                            Início
+                        </a>
+                    </il>
+                    <il class="nav-item dropdown d-inline p-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="{% static 'img/s1.png' %}" width="20" alt="" height="20">
+                            Tecido Sanguíneo
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{% url 'sangue' %}">Sangue</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="{% url 'eritocito' %}">Eritócito</a>
+                            <a class="dropdown-item" href="{% url 'monocito' %}">Monócito</a>
+                            <a class="dropdown-item" href="{% url 'basofilo' %}">Basófilo</a>
+                            <a class="dropdown-item" href="{% url 'neutrofilo' %}">Neutrófilo</a>
+                            <a class="dropdown-item" href="{% url 'eosinofilo' %}">Eosinófilo</a>
+                            <a class="dropdown-item" href="{% url 'linfocito' %}">Linfócito</a>
+                            <a class="dropdown-item" href="{% url 'plaqueta' %}">Plaqueta</a>
+                        </div>
+                    </il>
+                    <il class="nav-item d-inline p-2 bg-primary">
+                        <a class="nav-link" href="{% url 'referencias' %}">
+                            <img src="{% static 'img/l1.png' %}" width="20" alt="" height="20">
+                            Referências
+                        </a>
+                    </il>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid" style="background-color:#5CABFF">
+        <div class="invisible">
+            segundo
+        </div>
+        <div class="invisible">
+            segundo
+        </div>
+        <div class="invisible">
+            segundo
+        </div>
+
+            <div class="container-fluid" style="background-color:#5CABFF; text-align:center">
+                <h1>Neutrófilo</h1>
+            </div>
+            <div class="invisible">
+                segundo
+            </div>
+            <div class="invisible">
+                segundo
+            </div>
+
+                <nav id="navbar-example3" class="navbar navbar-light" style="background-color:#A8D2FF; text-align:center">
+                    <div class="container d-inline p-2 mb-5">
+                        <h3>Morfologia</h3>
+                    </div>
+                    <div class="mx-5">
+                        <div class="mx-5">
+                            <nav class="nav nav-pills flex-column">
+                                <p class="mb-4">
+                                    - Núcleo formado por 2 a 5 lóbulos
+                                </p>
+                                <p class="mb-4">
+                                    (mais frequentemente 3 lóbulos).
+                                </p>
+                                <div class="invisible">
+                                    <p>.</p>
+                                </div>
+                                <p class="mb-4">
+                                    - 10-14 µm de diâmetro.
+                                </p>
+                                <div class="invisible">
+                                    <p>.</p>
+                                </div>
+                                <p class="mb- 2">
+                                    - Possuem grânulos azurófilos (lisossomo) e grânulos específicos.
+                                </p>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="d-inline p-2 mx-5"data-spy="scroll" data-target="#navbar-example3" data-offset="0">
+                        <div class="mx-5">
+                            <img src="{% static 'img/neutrófilo.png' %}" width="450" alt="" height="450">
+                        </div>
+                        <div class="invisible">
+                            segundo
+                        </div>
+                        <div class="invisible">
+                            segundo
+                        </div>
+                        <div class="invisible">
+                            segundo
+                        </div>
+                    </div>
+                </nav>
+
+            <div class="invisible">
+                segundo
+            </div>
+            <div class="invisible">
+            segundo
+            </div>
+            <div class="invisible">
+                segundo
+            </div>
+            <div class="invisible">
+                segundo
+            </div>
+            <div class="invisible">
+                segundo
+            </div>
+            <div class="invisible">
+                segundo
+            </div>
+            <div class="invisible">
+                segundo
+            </div>
+            <div class="invisible">
+                segundo
+            </div>
+            <div class="invisible">
+                segundo
+            </div>
+            <div class="invisible">
+                segundo
+            </div>
+
+                <nav id="navbar-example3" class="navbar navbar-light" style="background-color:#A8D2FF; text-align:center">
+                    <div class="container d-inline p-2 mb-5">
+                        <h3>Função</h3>
+                    </div>
+                    <div class="mx-5">
+                        <div class="mx-5">
+                            <nav class="nav nav-pills flex-column">
+                                <p class="mb-4">
+                                    - Primeira linha de defesa do corpo.
+                                </p>
+                                <div class="invisible">
+                                    <p>.</p>
+                                </div>
+                                <p class="mb-4">
+                                    - Protegem o corpo contra bactérias e fungos.
+                                </p>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="d-inline p-2 mx-5"data-spy="scroll" data-target="#navbar-example3" data-offset="0">
+                        <div class="mx-5">
+                            <img src="{% static 'img/gifneutrofilo.gif' %}" width="450" alt="" height="450">
+                        </div>
+                        <div class="invisible">
+                            segundo
+                        </div>
+                        <div class="invisible">
+                            segundo
+                        </div>
+                        <div class="invisible">
+                            segundo
+                        </div>
+                    </div>
+                </nav>
+
+
+        <div class="invisible">
+            segundo
+        </div>
+        <div class="invisible">
+            segundo
+        </div>
+        <div class="invisible">
+            segundo
+        </div><div class="invisible">
+            segundo
+        </div><div class="invisible">
+            segundo
+        </div>
+        <div class="invisible">
+            segundo
+        </div>
+    </div>
+
+    <div class="container-fluid bg-info" style="text-align:center">
+        <div class="invisible">
+            blue
+        </div>
+        <footer>
+            <div class="container bg-info" style="text-align:center">
+                <img src="{% static 'img/logo3.png' %}" width="400" alt="" height="100">
+            </div>
+        </footer>
+        <div class="invisible">
+            blue
+        </div><div class="invisible">
+            blue
+        </div>
+    </div>
+
+    <script src="{% static 'js/jquery-3.6.0.slim.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.js' %}"></script>
+    <script src="{% static 'js/popper.js' %}"></script>
+</body>
+</html>

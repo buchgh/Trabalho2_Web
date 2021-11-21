@@ -1,0 +1,9 @@
+backports.entry-points-selectable==1.1.0
+distlib==0.3.3
+filelock==3.3.2
+gunicorn==20.1.0
+platformdirs==2.4.0
+six==1.16.0
+virtualenv==20.9.0
+virtualenvwrapper-win==1.2.6
+whitenoise==5.3.0

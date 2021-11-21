@@ -1,0 +1,4 @@
+.jumbotron {
+  background-image: {% static 'img/livros.png' %}
+  background-size: cover;
+}
